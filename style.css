@@ -1,0 +1,130 @@
+/* styling body */
+body {
+     background-color: lightblue
+     }
+ /* styling buttons */    
+.Out {
+    display:grid;
+    width:50%;
+    margin-top:1px;
+    margin-left:100px;
+    grid-template-columns:auto auto auto;
+}
+ /* styling buttons border */    
+.Out button{
+    border-top: 0px solid white;
+    border-left: 0px solid white;
+    border-right: 0px solid white;
+    border-bottom: 0px solid white;
+}
+ /* styling dispaly with menu  */    
+.head{
+    position:relative;
+    left:0px;
+    background-color:black;
+    color:white;
+    width:30%;
+    height:100%;
+    object-fit: cover;
+    padding:10px;
+    list-style:none;
+    text-align: center;
+    align-items: center;
+}
+ /* styling dispaly without menu  */    
+.headto{
+    position:relative;
+    left:-93px;
+    background-color:black;
+    color:white;
+    width:30%;
+    height:100%;
+    object-fit: cover;
+    padding:10px;
+    list-style:none;
+    text-align: center;
+    align-items: center;
+}
+ /* styling arrows in buttons  */
+.arrow{
+    width:30px;
+    height:30px;
+}
+/* normal display of menu  */
+.head1{
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+}
+/* highlighting selected display of menu  */
+.game{
+    width:100%;
+    height:auto;
+    background-color: gray;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+/* setting background image respective to selected menu item */
+.box{
+    background-image: url("https://th.bing.com/th/id/OIP.2t7VceBgR2q63zI4pW833QHaNK?pid=Api&rs=1") ;
+    background-position: center;
+    background-position: center;
+    overflow: hidden;
+    position:relative;
+    left:100px;
+    width:50%;
+    height:50%;
+    background-color:white;
+    border-radius: 5px 5px 0 0;
+}
+
+.box1{
+    background-image: url("https://th.bing.com/th/id/OIP.2t7VceBgR2q63zI4pW833QHaNK?pid=Api&rs=1") ;
+    background-position: center;
+    background-position: center;
+    overflow: hidden;
+    position:relative;
+    left:100px;
+    width:50%;
+    height:50%;
+    background-color:white;
+    border-radius: 5px 5px 0 0;
+}
+.box2{
+    background-image: url("https://th.bing.com/th/id/OIP.FF64k0Ez9gauRCHb7DtTpQHaEK?pid=Api&rs=1") ;
+    background-position: center;
+    background-position: center;
+    overflow: hidden;
+    position:relative;
+    left:100px;
+    width:50%;
+    height:50%;
+    background-color:white;
+    border-radius: 5px 5px 0 0;
+}
+.box3{
+    background-image: url("https://helade1975.files.wordpress.com/2016/04/todo.jpg") ;
+    background-position: center;
+    background-position: center;
+    overflow: hidden;
+    position:relative;
+    left:100px;
+    width:50%;
+    height:50%;
+    background-color:white;
+    border-radius: 5px 5px 0 0;
+}
+.box4{
+    background-image: url("https://th.bing.com/th/id/OIP.H52-9XJMR9YGAeQ3eXqBbgHaEK?pid=Api&rs=1") ;
+    background-position: center;
+    background-position: center;
+    overflow: hidden;
+    position:relative;
+    left:100px;
+    width:50%;
+    height:50%;
+    background-color:white;
+    border-radius: 5px 5px 0 0;
+}
